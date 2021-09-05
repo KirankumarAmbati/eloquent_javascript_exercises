@@ -32,8 +32,8 @@ ProgressBar.prototype.init = function () {
       clearInterval(intervalID);
     }
 
-    this.progressBar.value += 1;
-  }, this.timePeriod / 100);
+    this.progressBar.value += 0.1;
+  }, this.timePeriod / 1000);
 };
 
 ProgressBar.prototype.run = function () {

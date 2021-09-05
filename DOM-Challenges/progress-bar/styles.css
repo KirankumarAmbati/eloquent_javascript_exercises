@@ -1,0 +1,17 @@
+.progress-container {
+  margin: 10px;
+}
+
+.progress-container > progress {
+  height: 100px;
+  width: 500px;
+  border: 0;
+}
+
+.progress-container > button {
+  display: block;
+  height: 50px;
+  width: 100px;
+  border: 0;
+  margin: 10px 0;
+}
