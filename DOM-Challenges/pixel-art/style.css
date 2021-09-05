@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  margin: 0 2%;
+}
+
+.cell {
+  display: flex;
+  border: 1px solid;
+  padding: 30px;
+}
